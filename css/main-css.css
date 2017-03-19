@@ -1,0 +1,78 @@
+																	/*RESETS*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+p{
+	font-size: 14px;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1, h2{
+	font-size: 30px;
+}
+
+																	/*MAIN*/
+.wrapper{
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.main-container{
+	min-width: 1000px;
+	margin: 0 auto;
+}
+
+																	/*HEADER*/
+header{
+	width: 100%;
+	height: 110px;
+	background: url("../images/header-background.png") repeat;
+}
+
+header .wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+}
+
+header .wrap .logo{
+	margin-right: 80px;
+	text-align: center;
+	width: 230px;
+	line-height: 152px;
+}
+
+header .wrap .logo img{
+	width: 230px;
+	height: 52px;
+}
+
+header .wrap ul{
+	min-width: 670px;
+	height: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+header .wrap ul li{
+	width: auto;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+header .wrap ul li:hover{
+	background: red;
+}
