@@ -37,7 +37,7 @@ h1, h2{
 																	/*HEADER*/
 header{
 	width: 100%;
-	height: 107px;
+	max-height: 107px;
 	background: url("../images/header-background.png") repeat;
 	margin-bottom: 10px;
 }
@@ -66,6 +66,7 @@ header .wrap nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 header .wrap nav li{
@@ -85,13 +86,32 @@ header .wrap nav li:hover{
 }
 
 main{
-	width: 70%;
-	height: 600px;
-	background: red;
+	width: 78%;
+	border-radius: 5px;
+	background: white;
+	border: 2px solid #e7e7e7;
 }
+
+main article h1{
+	text-align: center;
+	font-weight: normal;
+	font-size: 26px;
+	margin: 30px 0 30px 0;
+	color: #333333;
+}
+
 aside{
-	width: 28%;
+	width: 20%;
 	height: 600px;
-	background: blue;
 	margin-right: 2%;
+	border-radius: 5px;
+	background: white;
+	border: 2px solid #e7e7e7;
+}
+
+main article .main-article__text{
+	max-width: 95%;
+	margin: 0 auto 20px;
+	color: #333333;
+	text-align: justify;
 }
